@@ -17,6 +17,8 @@ CSS rules into "custom.css".
 
 /* - - - Default - - - */
 
+#logo {background: rgba(222, 222, 222, 0) !important;}
+
 /* Logo  */
 #logo a {background-image:url('https://raw.githubusercontent.com/realmattbender/css/main/PBC3.png'); min-height:0; height:40px;height: 155px !important;}
 * html #logo a {/* IE6 png Support */
