@@ -18,10 +18,10 @@ CSS rules into "custom.css".
 /* - - - Default - - - */
 
 /* Logo  */
-#logo a {background-image:url('https://raw.githubusercontent.com/realmattbender/css/main/PBC-form.png'); min-height:0; height:40px;height: 155px !important;}
+#logo a {background-image:url('https://raw.githubusercontent.com/realmattbender/css/main/PBC3.png'); min-height:0; height:40px;height: 155px !important;}
 * html #logo a {/* IE6 png Support */
 	background-image: none;background-color: rgba(222, 222, 222, 0) !important;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://raw.githubusercontent.com/realmattbender/css/main/PBC-form.png", sizingMethod="crop");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://raw.githubusercontent.com/realmattbender/css/main/PBC3.png", sizingMethod="crop");
 }
 
 /* Backgrounds */
