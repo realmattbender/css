@@ -29,7 +29,7 @@ CSS rules into "custom.css".
 /* Backgrounds */
 html{background: url(https://raw.githubusercontent.com/realmattbender/css/main/PBCBG.jpg);}
 #logo{background-image:none;}
-#container{background:rgba(255, 255, 255, 0)}
+/*#container{background:rgba(255, 255, 255, 0)}*/
 .wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
 .wufoo .focused{background:#FFF7C0}
 .wufoo .instruct{background-color:#F5F5F5}
