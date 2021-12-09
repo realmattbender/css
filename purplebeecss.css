@@ -56,4 +56,5 @@ html{background: url(https://raw.githubusercontent.com/realmattbender/css/main/P
 
 #errorLi, .error-container {    font-family: 'Yusei Magic', sans-serif;}
 
-form li.buttons input {    font-family: 'Yusei Magic', sans-serif; background: #d4b2fa;font-weight: bold;padding: 5px 25px;border-radius: 9px;border: 0;border-bottom: 3px solid #5a338a;}
+form li.buttons input {    font-family: 'Yusei Magic', sans-serif; background: #d4b2fa;font-weight: bold;padding: 5px 25px;
+	border-radius: 9px;border: 0;border-bottom: 3px solid #5a338a;curosr:pointer;}
