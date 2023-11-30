@@ -1,50 +1,139 @@
-/* - - - - - - - - - - - - - - - - - - - - -
 
- Title : Example Custom CSS : DinoMaster!
- URL : http://wufoo.com
+		* {
+			box-sizing: border-box;
+		}
 
- Last Updated : April 1, 2011
+		body {
+			margin: 0;
+			padding: 0;
+		}
 
-- - - - - - - - - - - - - - - - - - - - - 
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
 
-INSTRUCTIONS
-1. Copy / Paste all or portions of these
-CSS rules into "custom.css".
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
 
-2. Experiment and play.
+		p {
+			line-height: inherit
+		}
 
-- - - - - - - - - - - - - - - - - - - - - */
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
 
-/* - - - Default - - - */
+		.image_block img+div {
+			display: none;
+		}
 
-/* Logo */
-#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}
-* html #logo a {/* IE6 png Support */
-	background-image: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
-}
+		@media (max-width:670px) {
 
-/* Backgrounds */
-html{background-image:none;background-color:#99cc00}
-#logo{background-image:none;background-color:#669900}
-#container{background:#FFFFFF}
-.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
-.wufoo .focused{background:#FFF7C0}
-.wufoo .instruct{background-color:#F5F5F5}
+			.desktop_hide table.icons-inner,
+			.row-10 .column-1 .block-4.button_block .alignment a,
+			.row-10 .column-1 .block-4.button_block .alignment div,
+			.row-10 .column-2 .block-1.image_block img,
+			.row-10 .column-2 .block-4.button_block .alignment a,
+			.row-10 .column-2 .block-4.button_block .alignment div,
+			.social_block.desktop_hide .social-table {
+				display: inline-block !important;
+			}
 
-/* Borders */
-#container{border:0 solid #cccccc}
-.wufoo .info{border-bottom:1px dotted #CCCCCC}
-.wufoo .instruct{border:1px solid #e6e6e6}
+			.icons-inner {
+				text-align: center;
+			}
 
-/* Typography */
-.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
-.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
-.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
-.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
-.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
-.wufoo label.choice{color:#444444}
-.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
-}
+			.icons-inner td {
+				margin: 0 auto;
+			}
+
+			.image_block div.fullWidth {
+				max-width: 100% !important;
+			}
+
+			.mobile_hide {
+				display: none;
+			}
+
+			.row-content {
+				width: 100% !important;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+
+			.row-3 .column-1 .block-2.paragraph_block td.pad>div {
+				font-size: 21px !important;
+			}
+
+			.row-3 .column-1 .block-3.paragraph_block td.pad>div {
+				font-size: 15px !important;
+			}
+
+			.row-3 .column-1 .block-3.paragraph_block td.pad {
+				padding: 0 25px 10px !important;
+			}
+
+			.row-10 .column-1 .block-2.paragraph_block td.pad>div,
+			.row-10 .column-1 .block-3.paragraph_block td.pad>div,
+			.row-10 .column-1 .block-4.button_block .alignment,
+			.row-10 .column-2 .block-1.image_block .alignment div,
+			.row-10 .column-2 .block-2.paragraph_block td.pad>div,
+			.row-10 .column-2 .block-3.paragraph_block td.pad>div,
+			.row-10 .column-2 .block-4.button_block .alignment {
+				text-align: center !important;
+			}
+
+			.row-10 .column-1 .block-4.button_block a,
+			.row-10 .column-1 .block-4.button_block div,
+			.row-10 .column-1 .block-4.button_block span,
+			.row-10 .column-2 .block-4.button_block a,
+			.row-10 .column-2 .block-4.button_block div,
+			.row-10 .column-2 .block-4.button_block span {
+				line-height: 32px !important;
+			}
+
+			.row-11 .column-1 .block-2.paragraph_block td.pad>div,
+			.row-11 .column-1 .block-3.paragraph_block td.pad>div {
+				font-size: 14px !important;
+			}
+
+			.row-11 .column-1 .block-4.paragraph_block td.pad>div {
+				font-size: 11px !important;
+			}
+
+			.row-11 .column-1 .block-4.paragraph_block td.pad {
+				padding: 0 10px 15px !important;
+			}
+
+			.row-11 .column-1 .block-1.paragraph_block td.pad>div {
+				font-size: 17px !important;
+			}
+
+			.row-11 .column-1 .block-3.paragraph_block td.pad {
+				padding: 0 10px !important;
+			}
+		}
